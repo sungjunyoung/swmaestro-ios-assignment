@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		0835219B1FA8168F0067E514 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0835219A1FA8168F0067E514 /* AppDelegate.swift */; };
-		0835219D1FA8168F0067E514 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0835219C1FA8168F0067E514 /* ViewController.swift */; };
 		083521A01FA8168F0067E514 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0835219E1FA8168F0067E514 /* Main.storyboard */; };
-		083521A31FA8168F0067E514 /* swmaestro_ios_assignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 083521A11FA8168F0067E514 /* swmaestro_ios_assignment.xcdatamodeld */; };
 		083521A51FA8168F0067E514 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083521A41FA8168F0067E514 /* Assets.xcassets */; };
 		083521A81FA8168F0067E514 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 083521A61FA8168F0067E514 /* LaunchScreen.storyboard */; };
+		083521B21FA8185F0067E514 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083521B11FA8185F0067E514 /* FriendsViewController.swift */; };
+		083521B61FA81CC40067E514 /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083521B51FA81CC40067E514 /* FriendsTableViewCell.swift */; };
+		087A67251FAAC0C000541F8D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087A67241FAAC0C000541F8D /* WebViewController.swift */; };
+		088DD7A31FA984DB00DC7A58 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088DD7A21FA984DB00DC7A58 /* DetailViewController.swift */; };
+		088DD7A61FA9949F00DC7A58 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088DD7A51FA9949F00DC7A58 /* Friend.swift */; };
+		088DD7A81FA9A13900DC7A58 /* BestFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088DD7A71FA9A13900DC7A58 /* BestFriendsViewController.swift */; };
+		BAD476520791F9E8A72AA290 /* Pods_swmaestro_ios_assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40D07CFA5E61A79CA881B0B /* Pods_swmaestro_ios_assignment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		083521971FA8168F0067E514 /* swmaestro_ios_assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swmaestro_ios_assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0835219A1FA8168F0067E514 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0835219C1FA8168F0067E514 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0835219F1FA8168F0067E514 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		083521A21FA8168F0067E514 /* swmaestro_ios_assignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = swmaestro_ios_assignment.xcdatamodel; sourceTree = "<group>"; };
 		083521A41FA8168F0067E514 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		083521A71FA8168F0067E514 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		083521A91FA8168F0067E514 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		083521B11FA8185F0067E514 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		083521B51FA81CC40067E514 /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		087A67241FAAC0C000541F8D /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		088DD7A21FA984DB00DC7A58 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		088DD7A51FA9949F00DC7A58 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		088DD7A71FA9A13900DC7A58 /* BestFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestFriendsViewController.swift; sourceTree = "<group>"; };
+		5322DEA05EDD1554A95DF95D /* Pods-swmaestro_ios_assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swmaestro_ios_assignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-swmaestro_ios_assignment/Pods-swmaestro_ios_assignment.release.xcconfig"; sourceTree = "<group>"; };
+		8F50C4D0831C3271EC643999 /* Pods-swmaestro_ios_assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swmaestro_ios_assignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swmaestro_ios_assignment/Pods-swmaestro_ios_assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		F40D07CFA5E61A79CA881B0B /* Pods_swmaestro_ios_assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swmaestro_ios_assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAD476520791F9E8A72AA290 /* Pods_swmaestro_ios_assignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				083521991FA8168F0067E514 /* swmaestro_ios_assignment */,
 				083521981FA8168F0067E514 /* Products */,
+				0E45C46D48552369A31B98BB /* Pods */,
+				17ED348A62F8F7B821D369D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +72,35 @@
 			isa = PBXGroup;
 			children = (
 				0835219A1FA8168F0067E514 /* AppDelegate.swift */,
-				0835219C1FA8168F0067E514 /* ViewController.swift */,
 				0835219E1FA8168F0067E514 /* Main.storyboard */,
 				083521A41FA8168F0067E514 /* Assets.xcassets */,
 				083521A61FA8168F0067E514 /* LaunchScreen.storyboard */,
 				083521A91FA8168F0067E514 /* Info.plist */,
-				083521A11FA8168F0067E514 /* swmaestro_ios_assignment.xcdatamodeld */,
+				083521B11FA8185F0067E514 /* FriendsViewController.swift */,
+				083521B51FA81CC40067E514 /* FriendsTableViewCell.swift */,
+				088DD7A21FA984DB00DC7A58 /* DetailViewController.swift */,
+				088DD7A51FA9949F00DC7A58 /* Friend.swift */,
+				088DD7A71FA9A13900DC7A58 /* BestFriendsViewController.swift */,
+				087A67241FAAC0C000541F8D /* WebViewController.swift */,
 			);
 			path = swmaestro_ios_assignment;
+			sourceTree = "<group>";
+		};
+		0E45C46D48552369A31B98BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F50C4D0831C3271EC643999 /* Pods-swmaestro_ios_assignment.debug.xcconfig */,
+				5322DEA05EDD1554A95DF95D /* Pods-swmaestro_ios_assignment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		17ED348A62F8F7B821D369D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F40D07CFA5E61A79CA881B0B /* Pods_swmaestro_ios_assignment.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 083521AC1FA8168F0067E514 /* Build configuration list for PBXNativeTarget "swmaestro_ios_assignment" */;
 			buildPhases = (
+				B9EB2B0FE0C2B24AAA272504 /* [CP] Check Pods Manifest.lock */,
 				083521931FA8168F0067E514 /* Sources */,
 				083521941FA8168F0067E514 /* Frameworks */,
 				083521951FA8168F0067E514 /* Resources */,
+				A3A448BEB962F5AD54372B20 /* [CP] Embed Pods Frameworks */,
+				7D048A96FE6D06A62C2C8E85 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +173,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7D048A96FE6D06A62C2C8E85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swmaestro_ios_assignment/Pods-swmaestro_ios_assignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3A448BEB962F5AD54372B20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-swmaestro_ios_assignment/Pods-swmaestro_ios_assignment-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swmaestro_ios_assignment/Pods-swmaestro_ios_assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9EB2B0FE0C2B24AAA272504 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swmaestro_ios_assignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		083521931FA8168F0067E514 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0835219D1FA8168F0067E514 /* ViewController.swift in Sources */,
-				083521A31FA8168F0067E514 /* swmaestro_ios_assignment.xcdatamodeld in Sources */,
+				083521B21FA8185F0067E514 /* FriendsViewController.swift in Sources */,
 				0835219B1FA8168F0067E514 /* AppDelegate.swift in Sources */,
+				088DD7A81FA9A13900DC7A58 /* BestFriendsViewController.swift in Sources */,
+				088DD7A61FA9949F00DC7A58 /* Friend.swift in Sources */,
+				087A67251FAAC0C000541F8D /* WebViewController.swift in Sources */,
+				083521B61FA81CC40067E514 /* FriendsTableViewCell.swift in Sources */,
+				088DD7A31FA984DB00DC7A58 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,12 +375,13 @@
 		};
 		083521AD1FA8168F0067E514 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F50C4D0831C3271EC643999 /* Pods-swmaestro_ios_assignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LK42RRLFBQ;
 				INFOPLIST_FILE = swmaestro_ios_assignment/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sungjunyoung.swmaestro-ios-assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -291,12 +391,13 @@
 		};
 		083521AE1FA8168F0067E514 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5322DEA05EDD1554A95DF95D /* Pods-swmaestro_ios_assignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LK42RRLFBQ;
 				INFOPLIST_FILE = swmaestro_ios_assignment/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sungjunyoung.swmaestro-ios-assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -326,19 +427,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		083521A11FA8168F0067E514 /* swmaestro_ios_assignment.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				083521A21FA8168F0067E514 /* swmaestro_ios_assignment.xcdatamodel */,
-			);
-			currentVersion = 083521A21FA8168F0067E514 /* swmaestro_ios_assignment.xcdatamodel */;
-			path = swmaestro_ios_assignment.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 0835218F1FA8168F0067E514 /* Project object */;
 }
